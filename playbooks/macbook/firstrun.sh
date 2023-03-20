@@ -8,13 +8,40 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 compaudit | xargs chmod g-w,o-w
 
 # personal
-brew install adobe-acrobat-reader atom bitwarden docker google-drive monitorcontrol openvpn-connect sublime-text zoom authy discord github google-chrome lens ngrok pgadmin4 visual-studio-code aws-vault amazon-chime iterm2
+brew install \
+    adobe-acrobat-reader \
+    bitwarden \
+    discord \
+    git \
+    google-drive \
+    google-chrome \
+    iterm2 \
+    monitorcontrol \
+    slack \
+    sublime-text \
+    visual-studio-code \
+    zoomus
 
 # work
-brew install htop telnet kubectl
-
-# install tfswitch
-brew install warrensbox/tap/tfswitch
+brew install fluxcd/tap/flux
+brew install openvpn-connect \
+    ngrok \
+    pgadmin4 \
+    aws-vault \
+    amazon-chime \
+    eksctl \
+    helm \
+    htop \
+    jq \
+    minikube \
+    miniconda \
+    telnet \
+    tree \
+    tfenv \
+    kubectl \
+    kustomize \
+    watch \
+    time
 
 ./gpg.sh
 ./ssh_startup.sh
