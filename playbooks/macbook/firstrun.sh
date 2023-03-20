@@ -20,7 +20,7 @@ brew install \
     slack \
     sublime-text \
     visual-studio-code \
-    zoomus
+    zoom
 
 # work
 brew install fluxcd/tap/flux
