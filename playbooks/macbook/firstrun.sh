@@ -43,6 +43,10 @@ brew install openvpn-connect \
     watch \
     time
 
+# add unlimted history to zshrc
+echo 'export HISTFILESIZE=1000000000' >> ~/.zshrc
+echo 'export HISTSIZE=1000000000' >> ~/.zshrc
+
 ./gpg.sh
 ./ssh_startup.sh
 ./ssh_config.sh
