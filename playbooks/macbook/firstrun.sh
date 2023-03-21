@@ -50,3 +50,6 @@ echo 'export HISTSIZE=1000000000' >> ~/.zshrc
 ./gpg.sh
 ./ssh_startup.sh
 ./ssh_config.sh
+
+# install tfenv on arm
+TFENV_ARCH=amd64 tfenv install 1.3.3
