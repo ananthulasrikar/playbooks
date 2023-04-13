@@ -41,7 +41,8 @@ brew install openvpn-connect \
     kubectl \
     kustomize \
     watch \
-    time
+    time \
+    yq
 
 # add unlimted history to zshrc
 echo 'export HISTFILESIZE=1000000000' >> ~/.zshrc
