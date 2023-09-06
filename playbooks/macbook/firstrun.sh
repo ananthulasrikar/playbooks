@@ -54,3 +54,10 @@ echo 'export HISTSIZE=1000000000' >> ~/.zshrc
 
 # install tfenv on arm
 TFENV_ARCH=amd64 tfenv install 1.3.3
+
+# configure zsh
+# brew install kube-ps1
+# brew install hidetatz/tap/kubecolor
+# write steps to save zsh config
+# https://medium.com/ayuth/iterm2-zsh-oh-my-zsh-the-most-power-full-of-terminal-on-macos-bdb2823fb04c
+#https://dev.to/abdfnx/oh-my-zsh-powerlevel10k-cool-terminal-1no0
